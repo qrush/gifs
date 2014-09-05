@@ -38,14 +38,17 @@ html {
   html {
     font-size: 16px;
   }
-
-  img {
-    max-width: 100%;
-  }
 }
 @media (min-width: 58rem) {
   html {
     font-size: 20px;
+  }
+}
+
+/* I am terrible at CSS */
+@media screen and (max-width: 780px) {
+  img {
+    max-width: 100%;
   }
 }
 
