@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        '/:title'
+
+# Setup
+title:            gifs
+tagline:          'a private collection'
+description:      'a private collection'
+#url:              http://quaran.to/gifs
+
+author:
+  name:           'Nick Quaranto'
+  url:            https://twitter.com/qrush
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/qrush/gifs
