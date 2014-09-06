@@ -17,7 +17,7 @@ title: #{page}
 
 <img src="{{ site.url }}/gifs/#{page}.gif" />
 
-<a href="">&#8627;</a>
+<a href="#{ENV['URL']}">&#8627; #{ENV['BY']}</a>
 
 EOF
 end
