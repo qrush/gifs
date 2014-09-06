@@ -7,7 +7,8 @@ def write_page(gif, page)
 
   FileUtils.cp gif, "./gifs/#{page}.gif"
   title = page < 10 ? "000#{page}" : "00#{page}" # i am too tired to remember sprintf
-  File.write "_posts/2014-09-04-#{title}.md", <<EOF
+
+  File.write "_posts/#{Date.today}-#{title}.md", <<EOF
 ---
 layout: page
 title: #{page}
