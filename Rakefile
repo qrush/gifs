@@ -4,6 +4,7 @@ end
 
 def write_page(gif, page)
   require 'fileutils'
+  require 'date'
 
   FileUtils.cp gif, "./gifs/#{page}.gif"
   title = page < 10 ? "000#{page}" : "00#{page}" # i am too tired to remember sprintf
