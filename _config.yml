@@ -11,6 +11,9 @@ tagline:          'a private collection'
 description:      'a private collection'
 url:              http://quaran.to/gifs
 
+gems:
+  - jekyll-redirect-from
+
 author:
   name:           'Nick Quaranto'
   url:            https://twitter.com/qrush
