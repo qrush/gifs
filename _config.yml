@@ -15,7 +15,7 @@ author:
   name:           'Nick Quaranto'
   url:            https://twitter.com/qrush
 
-paginate:         5
+paginate:         10
 
 # Custom vars
 version:          2.0.0
